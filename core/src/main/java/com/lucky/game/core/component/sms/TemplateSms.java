@@ -1,0 +1,11 @@
+package com.lucky.game.core.component.sms;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@Data
+@EqualsAndHashCode(callSuper=false)
+public class TemplateSms extends Sms {
+	public String tempId;
+	public String [] values;
+}
